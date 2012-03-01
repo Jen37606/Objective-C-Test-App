@@ -35,17 +35,17 @@
 		9ACABEC415003A9B0024A987 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9ACABEC615003A9B0024A987 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9ACABEC815003A9B0024A987 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9ACABECC15003A9B0024A987 /* Jens OC app-Info.plist */ = {isa = PBXFileReference; path = "Jens OC app-Info.plist"; sourceTree = "<group>"; };
+		9ACABECC15003A9B0024A987 /* Jens OC app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jens OC app-Info.plist"; sourceTree = "<group>"; };
 		9ACABECE15003A9B0024A987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ACABED015003A9B0024A987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9ACABED215003A9B0024A987 /* Jens OC app-Prefix.pch */ = {isa = PBXFileReference; path = "Jens OC app-Prefix.pch"; sourceTree = "<group>"; };
-		9ACABED315003A9B0024A987 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ACABED215003A9B0024A987 /* Jens OC app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jens OC app-Prefix.pch"; sourceTree = "<group>"; };
+		9ACABED315003A9B0024A987 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9ACABED415003A9B0024A987 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9ACABEDB15003A9B0024A987 /* Jens OC appTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jens OC appTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACABEDC15003A9B0024A987 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9ACABEE415003A9B0024A987 /* Jens OC appTests-Info.plist */ = {isa = PBXFileReference; path = "Jens OC appTests-Info.plist"; sourceTree = "<group>"; };
+		9ACABEE415003A9B0024A987 /* Jens OC appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jens OC appTests-Info.plist"; sourceTree = "<group>"; };
 		9ACABEE615003A9B0024A987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9ACABEE815003A9B0024A987 /* Jens_OC_appTests.h */ = {isa = PBXFileReference; path = Jens_OC_appTests.h; sourceTree = "<group>"; };
+		9ACABEE815003A9B0024A987 /* Jens_OC_appTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jens_OC_appTests.h; sourceTree = "<group>"; };
 		9ACABEE915003A9B0024A987 /* Jens_OC_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jens_OC_appTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
