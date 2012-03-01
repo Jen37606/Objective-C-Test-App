@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ACABEC515003A9B0024A987 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACABEC415003A9B0024A987 /* UIKit.framework */; };
+		9ACABEC715003A9B0024A987 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACABEC615003A9B0024A987 /* Foundation.framework */; };
+		9ACABEC915003A9B0024A987 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACABEC815003A9B0024A987 /* CoreGraphics.framework */; };
+		9ACABECF15003A9B0024A987 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACABECD15003A9B0024A987 /* InfoPlist.strings */; };
+		9ACABED115003A9B0024A987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACABED015003A9B0024A987 /* main.m */; };
+		9ACABED515003A9B0024A987 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACABED415003A9B0024A987 /* AppDelegate.m */; };
+		9ACABEDD15003A9B0024A987 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACABEDC15003A9B0024A987 /* SenTestingKit.framework */; };
+		9ACABEDE15003A9B0024A987 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACABEC415003A9B0024A987 /* UIKit.framework */; };
+		9ACABEDF15003A9B0024A987 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACABEC615003A9B0024A987 /* Foundation.framework */; };
+		9ACABEE715003A9B0024A987 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ACABEE515003A9B0024A987 /* InfoPlist.strings */; };
+		9ACABEEA15003A9B0024A987 /* Jens_OC_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACABEE915003A9B0024A987 /* Jens_OC_appTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ACABEE015003A9B0024A987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ACABEB715003A9B0024A987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACABEBF15003A9B0024A987;
+			remoteInfo = "Jens OC app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ACABEC015003A9B0024A987 /* Jens OC app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jens OC app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACABEC415003A9B0024A987 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9ACABEC615003A9B0024A987 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9ACABEC815003A9B0024A987 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9ACABECC15003A9B0024A987 /* Jens OC app-Info.plist */ = {isa = PBXFileReference; path = "Jens OC app-Info.plist"; sourceTree = "<group>"; };
+		9ACABECE15003A9B0024A987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9ACABED015003A9B0024A987 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ACABED215003A9B0024A987 /* Jens OC app-Prefix.pch */ = {isa = PBXFileReference; path = "Jens OC app-Prefix.pch"; sourceTree = "<group>"; };
+		9ACABED315003A9B0024A987 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ACABED415003A9B0024A987 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ACABEDB15003A9B0024A987 /* Jens OC appTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jens OC appTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACABEDC15003A9B0024A987 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9ACABEE415003A9B0024A987 /* Jens OC appTests-Info.plist */ = {isa = PBXFileReference; path = "Jens OC appTests-Info.plist"; sourceTree = "<group>"; };
+		9ACABEE615003A9B0024A987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9ACABEE815003A9B0024A987 /* Jens_OC_appTests.h */ = {isa = PBXFileReference; path = Jens_OC_appTests.h; sourceTree = "<group>"; };
+		9ACABEE915003A9B0024A987 /* Jens_OC_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jens_OC_appTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ACABEBD15003A9B0024A987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACABEC515003A9B0024A987 /* UIKit.framework in Frameworks */,
+				9ACABEC715003A9B0024A987 /* Foundation.framework in Frameworks */,
+				9ACABEC915003A9B0024A987 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACABED715003A9B0024A987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACABEDD15003A9B0024A987 /* SenTestingKit.framework in Frameworks */,
+				9ACABEDE15003A9B0024A987 /* UIKit.framework in Frameworks */,
+				9ACABEDF15003A9B0024A987 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ACABEB515003A9B0024A987 = {
+			isa = PBXGroup;
+			children = (
+				9ACABECA15003A9B0024A987 /* Jens OC app */,
+				9ACABEE215003A9B0024A987 /* Jens OC appTests */,
+				9ACABEC315003A9B0024A987 /* Frameworks */,
+				9ACABEC115003A9B0024A987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ACABEC115003A9B0024A987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ACABEC015003A9B0024A987 /* Jens OC app.app */,
+				9ACABEDB15003A9B0024A987 /* Jens OC appTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ACABEC315003A9B0024A987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ACABEC415003A9B0024A987 /* UIKit.framework */,
+				9ACABEC615003A9B0024A987 /* Foundation.framework */,
+				9ACABEC815003A9B0024A987 /* CoreGraphics.framework */,
+				9ACABEDC15003A9B0024A987 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ACABECA15003A9B0024A987 /* Jens OC app */ = {
+			isa = PBXGroup;
+			children = (
+				9ACABED315003A9B0024A987 /* AppDelegate.h */,
+				9ACABED415003A9B0024A987 /* AppDelegate.m */,
+				9ACABECB15003A9B0024A987 /* Supporting Files */,
+			);
+			path = "Jens OC app";
+			sourceTree = "<group>";
+		};
+		9ACABECB15003A9B0024A987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ACABECC15003A9B0024A987 /* Jens OC app-Info.plist */,
+				9ACABECD15003A9B0024A987 /* InfoPlist.strings */,
+				9ACABED015003A9B0024A987 /* main.m */,
+				9ACABED215003A9B0024A987 /* Jens OC app-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ACABEE215003A9B0024A987 /* Jens OC appTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ACABEE815003A9B0024A987 /* Jens_OC_appTests.h */,
+				9ACABEE915003A9B0024A987 /* Jens_OC_appTests.m */,
+				9ACABEE315003A9B0024A987 /* Supporting Files */,
+			);
+			path = "Jens OC appTests";
+			sourceTree = "<group>";
+		};
+		9ACABEE315003A9B0024A987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ACABEE415003A9B0024A987 /* Jens OC appTests-Info.plist */,
+				9ACABEE515003A9B0024A987 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ACABEBF15003A9B0024A987 /* Jens OC app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACABEED15003A9B0024A987 /* Build configuration list for PBXNativeTarget "Jens OC app" */;
+			buildPhases = (
+				9ACABEBC15003A9B0024A987 /* Sources */,
+				9ACABEBD15003A9B0024A987 /* Frameworks */,
+				9ACABEBE15003A9B0024A987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jens OC app";
+			productName = "Jens OC app";
+			productReference = 9ACABEC015003A9B0024A987 /* Jens OC app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ACABEDA15003A9B0024A987 /* Jens OC appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACABEF015003A9B0024A987 /* Build configuration list for PBXNativeTarget "Jens OC appTests" */;
+			buildPhases = (
+				9ACABED615003A9B0024A987 /* Sources */,
+				9ACABED715003A9B0024A987 /* Frameworks */,
+				9ACABED815003A9B0024A987 /* Resources */,
+				9ACABED915003A9B0024A987 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACABEE115003A9B0024A987 /* PBXTargetDependency */,
+			);
+			name = "Jens OC appTests";
+			productName = "Jens OC appTests";
+			productReference = 9ACABEDB15003A9B0024A987 /* Jens OC appTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ACABEB715003A9B0024A987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9ACABEBA15003A9B0024A987 /* Build configuration list for PBXProject "Jens OC app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9ACABEB515003A9B0024A987;
+			productRefGroup = 9ACABEC115003A9B0024A987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ACABEBF15003A9B0024A987 /* Jens OC app */,
+				9ACABEDA15003A9B0024A987 /* Jens OC appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ACABEBE15003A9B0024A987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACABECF15003A9B0024A987 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACABED815003A9B0024A987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACABEE715003A9B0024A987 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9ACABED915003A9B0024A987 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ACABEBC15003A9B0024A987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACABED115003A9B0024A987 /* main.m in Sources */,
+				9ACABED515003A9B0024A987 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACABED615003A9B0024A987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACABEEA15003A9B0024A987 /* Jens_OC_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ACABEE115003A9B0024A987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ACABEBF15003A9B0024A987 /* Jens OC app */;
+			targetProxy = 9ACABEE015003A9B0024A987 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ACABECD15003A9B0024A987 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ACABECE15003A9B0024A987 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9ACABEE515003A9B0024A987 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ACABEE615003A9B0024A987 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ACABEEB15003A9B0024A987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ACABEEC15003A9B0024A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ACABEEE15003A9B0024A987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jens OC app/Jens OC app-Prefix.pch";
+				INFOPLIST_FILE = "Jens OC app/Jens OC app-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9ACABEEF15003A9B0024A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jens OC app/Jens OC app-Prefix.pch";
+				INFOPLIST_FILE = "Jens OC app/Jens OC app-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9ACABEF115003A9B0024A987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jens OC app.app/Jens OC app";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jens OC app/Jens OC app-Prefix.pch";
+				INFOPLIST_FILE = "Jens OC appTests/Jens OC appTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9ACABEF215003A9B0024A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jens OC app.app/Jens OC app";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jens OC app/Jens OC app-Prefix.pch";
+				INFOPLIST_FILE = "Jens OC appTests/Jens OC appTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ACABEBA15003A9B0024A987 /* Build configuration list for PBXProject "Jens OC app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACABEEB15003A9B0024A987 /* Debug */,
+				9ACABEEC15003A9B0024A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ACABEED15003A9B0024A987 /* Build configuration list for PBXNativeTarget "Jens OC app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACABEEE15003A9B0024A987 /* Debug */,
+				9ACABEEF15003A9B0024A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9ACABEF015003A9B0024A987 /* Build configuration list for PBXNativeTarget "Jens OC appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACABEF115003A9B0024A987 /* Debug */,
+				9ACABEF215003A9B0024A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ACABEB715003A9B0024A987 /* Project object */;
+}
