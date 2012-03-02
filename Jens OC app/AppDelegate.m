@@ -18,6 +18,58 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    // variables
+    float weight = 165.5f;
+    float weightloss = 12.5f;
+    int overweight = 160;
+    int underweight = 100;
+    bool lostweight = true;
+    // casted float to an int
+    int newweight = (int)weight - (int)weightloss;
+    // output both in log
+    NSLog(@"Original weight = %f, New weight = %d", weight, newweight);
+    
+    // performing if, else if and else with float, int and bool useing AND and OR comparisons
+    if(weight > overweight && newweight < overweight){
+        NSLog(@"You moved from overweight to normal weight!\n");
+        NSLog(@"Over weight is %d, You were %f and are now %d\n", overweight, weight, newweight);
+    }else if(weight > overweight || weight < underweight){
+        NSLog(@"Your weight was either too high or too low");
+    }else{
+        lostweight = false;
+        NSLog(@"You still need to lose more weight!\n");
+        NSLog(@"Over weight is %d, You are %d\n", overweight, newweight);
+    }
+    
+    if(lostweight == true){
+        NSLog(@"Good job! You lost weight!\n");
+    }else{
+        NSLog(@"Your getting there! Keep working hard!\n");
+    }
+    
+    //nested loop
+    for(int m=1; m<4; m++){
+        for(int w=1; w<5; w++){
+            NSLog(@"Month %d, Week %d you lost 1 pound\n", m, w);
+        }
+    
+    }
+    
+    // single loop
+    for(int i=4; i<3; i++){
+        NSLog(@"Week %d you lost 4 pounds!\n", i);
+    }
+    
+    //while loop
+    int goalweight = 145;
+    while(goalweight > newweight){
+        NSLog(@"New weight loss: %d\n", newweight);
+        
+        newweight--;
+    }
+    
+    
     return YES;
 }
 
